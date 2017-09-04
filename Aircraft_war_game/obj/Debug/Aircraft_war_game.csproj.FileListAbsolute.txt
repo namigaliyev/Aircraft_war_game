@@ -1,0 +1,8 @@
+C:\Users\Namig\Desktop\Visual_Studio2015\Projects\Aircraft_war_game\Aircraft_war_game\bin\Debug\Aircraft_war_game.exe.config
+C:\Users\Namig\Desktop\Visual_Studio2015\Projects\Aircraft_war_game\Aircraft_war_game\obj\Debug\Aircraft_war_game.csprojResolveAssemblyReference.cache
+C:\Users\Namig\Desktop\Visual_Studio2015\Projects\Aircraft_war_game\Aircraft_war_game\obj\Debug\Aircraft_war_game.Properties.Resources.resources
+C:\Users\Namig\Desktop\Visual_Studio2015\Projects\Aircraft_war_game\Aircraft_war_game\obj\Debug\Aircraft_war_game.csproj.GenerateResource.Cache
+C:\Users\Namig\Desktop\Visual_Studio2015\Projects\Aircraft_war_game\Aircraft_war_game\bin\Debug\Aircraft_war_game.exe
+C:\Users\Namig\Desktop\Visual_Studio2015\Projects\Aircraft_war_game\Aircraft_war_game\bin\Debug\Aircraft_war_game.pdb
+C:\Users\Namig\Desktop\Visual_Studio2015\Projects\Aircraft_war_game\Aircraft_war_game\obj\Debug\Aircraft_war_game.exe
+C:\Users\Namig\Desktop\Visual_Studio2015\Projects\Aircraft_war_game\Aircraft_war_game\obj\Debug\Aircraft_war_game.pdb
