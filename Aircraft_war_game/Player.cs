@@ -10,7 +10,6 @@ namespace Aircraft_war_game
 {
     class Player:Control
     {
-        
         private int xsolsinir;
         private int xsagsinir;
         public int Xsolsinir
@@ -19,7 +18,6 @@ namespace Aircraft_war_game
             {
                 return xsolsinir;
             }
-
             set
             {
                 xsolsinir = value;

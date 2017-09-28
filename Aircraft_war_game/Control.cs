@@ -16,6 +16,7 @@ namespace Aircraft_war_game
         private int width;
         private int height;
         private Image resim;
+
         public Image Resim
         {
             get
@@ -76,8 +77,6 @@ namespace Aircraft_war_game
                 height = value;
             }
         }
-
-
 
         public void Ciz(Graphics g)
         {
