@@ -14,7 +14,7 @@ namespace Aircraft_war_game
         {
             Resim = Image.FromFile("foe.png");
             //dusmanin rastgele X kordinatlarinda olusmasi icin rasgele degerleri ataniyor
-            X = RandomNumber.SayiUret(1, 600);
+            X = RandomNumber.SayiUret(1, 700);
             Y = -60;
             Width = 64;
             Height = 64;

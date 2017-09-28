@@ -40,12 +40,12 @@ namespace Aircraft_war_game
         public Player()
         {
             Resim = Image.FromFile("player.png");
-            X = 300;
+            X = 350;
             Y = 500;
             Width = 64;
             Height = 64;
             Xsolsinir = 1;
-            Xsagsinir = 612;
+            Xsagsinir = 712;
         }
         //saga ve sola gitme fonksiyonlari oyuncunun X'ini artirib azaltiyor
         public void SagaGit()

@@ -26,6 +26,7 @@ namespace Aircraft_war_game
         private StringFormat drawFormat;
         private SoundPlayer player1;
         private Label lbl;
+        
 
         public Mainwindow(int genislik, int yukseklik)
         {
@@ -40,12 +41,14 @@ namespace Aircraft_war_game
             zamanla = new Timer();
             player = new Player();
             lbl = new Label();
+
             //Label'in ozellikleri
-            lbl.Text = "Oyunu Baslatmak icin ENTER tusuna basiniz \n Oyuncuyu hareket etdirmek icin SAG/SOl yon tuslarini kulllanin \n Ates etmek icin BOSLUK tusuna basin";
+            lbl.Text = "Press ENTER key to start the game \nUse the RIGHT / LEFT directional keys to move the player \nPress SPACE to fire";
             lbl.Location = new Point(0, 0);
-            lbl.Size = new Size(700, 40);
+            lbl.Size = new Size(800, 40);
             lbl.BackColor = Color.Red;
             lbl.ForeColor = Color.White;
+
             //Bilgi Labeli ekrana cikariliyor
             Controls.Add(lbl);
 
@@ -95,7 +98,6 @@ namespace Aircraft_war_game
             //enter tusuna basildiginda oyun basliyor
             if (e.KeyCode == Keys.Return)
             {
-
                 zamanla.Start();
             }
             //Sag yon tusuna basildiginda oyuncu saga dogru hareket ediyor
@@ -220,7 +222,7 @@ namespace Aircraft_war_game
             //oyuncu cizdiriliyor
             player.Ciz(e.Graphics);
             //Guncel score ekrana cizdiriliyor
-            e.Graphics.DrawString(drawString, drawFont, drawBrush, 200, 150, drawFormat);
+            e.Graphics.DrawString(drawString, drawFont, drawBrush, 250, 150, drawFormat);
             //dusmanlar cizdiriliyor
             for (int i = 0; i < numberofenemies; i++)
             {

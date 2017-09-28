@@ -16,7 +16,7 @@ namespace Aircraft_war_game
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Mainwindow(700,600));
+            Application.Run(new Mainwindow(800,600));
         }
     }
 }
